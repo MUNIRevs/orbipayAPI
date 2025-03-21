@@ -1,0 +1,37 @@
+{
+    "name": "co-php-sdk-v3",
+    "version": "3.0.0",
+    "description": "PHP SDK to integrate with Checkout.",
+    "keywords": [
+        "checkout",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "https://www.alacriti.com",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Alacriti Inc.",
+            "homepage": "https://www.alacriti.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~1.0",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~1.12"
+    },
+    "autoload": {
+        "psr-4": { "Com\\Alacriti\\Checkout\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Com\\Alacriti\\Checkout\\Client\\" : "test/" }
+    }
+}
