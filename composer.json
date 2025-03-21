@@ -1,5 +1,5 @@
 {
-    "name": "co-php-sdk-v3",
+    "name": "munirevs/co-php-sdk-v3",
     "version": "3.0.0",
     "description": "PHP SDK to integrate with Checkout.",
     "keywords": [
